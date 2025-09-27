@@ -1,0 +1,289 @@
+body {
+  height: 1700px;
+}
+.second-para {
+  background-color: blueviolet;
+  font-size: 20px;
+}
+
+/*
+    testing comment
+   */
+
+.aboutUs p {
+  background-color: blue;
+  color: white;
+}
+
+.sliderBanner {
+  /* background-color: blue; */
+  /* background-color: rgb(172, 43, 211); */
+  /* background-color: #fff; */
+  /* background-color: 	hsl(15, 100%, 50%); */
+  /* background-color: #FE6059; */
+
+  /* background-image: url(../images/banners/slider-1.jpg);
+    min-height: 450px;
+    background-repeat: no-repeat; */
+
+  /* repeat-x  OR repeat-y OR repeat */
+  /* 
+    background-image: url(../images/fav.jpg);
+    min-height: 450px;
+    background-repeat: repeat-x; */
+
+  /* scroll  OR fixed */
+
+  /* background-image: url(../images/portfolio/portfolio-3.png);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-attachment: scroll; */
+
+  /*  200px from x   and  100px: from y; */
+  /* 
+    background-image: url(../images/portfolio/portfolio-3.png);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 200px 100px; */
+
+  /* background-image: url(../images/fav.jpg);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-color: #FE6059;
+    background-position: top left; */
+
+  /* auto OR  cover  OR contain */
+  /* background-image: url(../images/banners/slider-1.jpg);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain; */
+
+  /* background-image: url(../images/portfolio/portfolio-1.png);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: 558px 558px; */
+}
+
+.box-sizing {
+  background-color: aqua;
+  width: 500px;
+  height: 350px;
+
+  /* padding internal spaces */
+  /* padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+
+  /* padding: 50px; */
+
+  /* top - right - bottom - left */
+  /* padding: 50px 50px 30px 70px;  */
+
+  /* top: 40 - right:10 - bottom: 40- left: 10 */
+  padding: 40px 10px;
+
+  /* ___________________________ */
+
+  /* margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px; */
+
+  /* margin: 50px;  */
+
+  /* top - right - bottom - left */
+  /* margin: 50px 50px 30px 70px; */
+
+  margin: 40px 10px;
+
+  /* ___________________________ */
+
+  /* solid - dotted - dashed*/
+  /* border: 5px dashed #000; */
+  /* outline: 5px dashed #000; */
+
+  /* border-radius: 20px; */
+  /* border-radius: 20px 0px 20px 0px; */
+
+  /* outline: 5px dashed #000; 
+ outline-offset: 10px; */
+}
+
+/* ------------------------------------------------------------------- */
+
+/* 
+    div: display block element
+    - take full width
+    - take height
+    - take padding
+    - take margin
+
+*/
+.first-element {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.second-element {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* 
+    span: display inline element
+    - didn't take full width
+    - didn't take height
+    - take padding
+    - take only margin [right - left]
+
+*/
+.first-element-span {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.second-element-span {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* display:inline-block have a mix between inline & block*/
+.d-inline-element-one {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+.d-inline-element-two {
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* -------------------------- Element visibility  ----------------------------------------- */
+/* visibility: hidden; display:none */
+.element-visible-one {
+  background-color: chartreuse;
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  visibility: hidden;
+}
+.element-visible-two {
+  background-color: deeppink;
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#services {
+  background-color: #858585;
+  padding: 30px;
+}
+
+#services .container {
+  width: 400px;
+  background-color: #eee;
+}
+/* #services .container img{
+    width: 400px;
+  border-radius: 20px;
+} */
+#services .container .cover {
+  width: 400px;
+  border-radius: 20px;
+}
+
+#services .container h1 {
+  color: #990866;
+}
+
+#services .container p {
+  font-size: 17px;
+  color: #333;
+}
+
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+#posts {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#posts .post {
+  width: calc(100% / 3);
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  position: relative;
+  width: 100%;
+}
+#postForm {
+  padding: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+}
+#postForm input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 40px;
+}
+#postForm textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#postForm button {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #990866;
+  color: white;
+  cursor: pointer;
+}
+#errors {
+  color: #d60000;
+  background-color: #ffa1a1;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 20px;
+  display: none;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+.first-element-span {
+  background-color: rgb(17, 62, 17);
+}
+
+.second-element-span {
+  background-color: rgb(86, 4, 86);
+}
+
+.d-inline-element-one {
+  background-color: rgb(0, 102, 92);
+}
+.d-inline-element-two {
+  background-color: rgb(90, 0, 0);
+}
