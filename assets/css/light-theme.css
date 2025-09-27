@@ -1,0 +1,19 @@
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.first-element-span {
+  background-color: green;
+}
+
+.second-element-span {
+  background-color: purple;
+}
+
+.d-inline-element-one {
+  background-color: turquoise;
+}
+.d-inline-element-two {
+  background-color: brown;
+}
